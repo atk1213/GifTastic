@@ -13,31 +13,29 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <header class="jumbotron">
             <h1>Art of Fighting</h1>
-            <div class="search-input">
-                <input type="text" name="search">
-                <button type="button" name="button">Search</button>
-            </div>
+        </header>
+        <div class="search-input">
+            <input type="text" id="search">
+            <button type="button" id="search-button">Search</button>
         </div>
-        <div class = "row">
-            <div class = "col-md-1">&nbsp;</div>
-            <div class = "col-xs-12 col-md-7">
-                <div id = "gif-gallery">
-                <!-- image here -->
-                </div>
-                <!-- image rating here? -->
-            </div>
-            <div class = "col-xs-12 col md-3">
-                <div id = "button-list">
-                    <!-- search buttons here -->
-                </div>
-            </div>
-            <div class = "col-md-1">&nbsp;</div>
-        </div>
+        <br>
+        <div id="button-list"></div>
+        <br>
     </div>
+    <div class="row">
+        <div class="col-md-2">&nbsp;</div>
+        <div class="col-xs-12 col-md-7">
+            <div id="gif-gallery"></div>
+        </div>
+        <div class="col-md-3">&nbsp;</div>
+    </div>
+    </div>
+    <!-- <div class="panel-footer">&copy; 2017 Anthony Kim</div> -->
 </body>
 
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="./assets/javascript/app.js"></script>
+
 </html>
